@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.grid-container{
+    display: grid;
+}
+:root{
+    /* --title-color:#0A3853; */
+    --dark-blue-color:#0B0E66;
+    --light-blue-color:#26C7EA;
+}
+/*_____________________________________________________________header____________________________________*/
+.header-wrap{
+    justify-content: space-around;
+    align-items: center;
+    background-blend-mode: multiply;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    background-color: #3576C6;
+}
+.button1{
+    width: 200px;
+    height: 49px;
+    background-color: var(--dark-blue-color);
+    margin-top: 20px;
+}
+.btn1{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: var(--light-blue-color);
+    padding: 12.6px 12.4px;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+}
+.menu1{
+    gap: 40px;
+}
+.items2{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #FFFFFF;
+}
+.items1{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: var(--dark-blue-color);
+}
+/*---------------------------------------sec1-----------------------------------*/
+.sec1-wrap{
+    height: 743px;
+    background-image: url(./images/title-photo.png);
+    align-items: center;
+    padding-top: 413px;
+    padding-left: 550px;
+    .sec1-btn{
+        width: 340px;
+        height: 120px;
+        background-color: #3576C6;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border: 0px;
+        justify-content: center;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 130%;
+        color: #FFFDFD;
+        text-transform: uppercase;
+    }
+}
+/*----------------------------------sec2-------------------------------------------*/
+.sec2-wrap{
+    margin-top: 60px;
+    margin-left: 150px;
+    width: 1140px;
+    height: 931px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .sec2-titles{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        h1{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 130%;
+            color: #121212;
+            text-transform: uppercase;
+        }
+        p{
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #736A6A;
+        }
+    }
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin-top: 35px;
+        margin-bottom: 60px;
+        width: 1140px;
+        height: 680px;
+        .grid-item{
+            img{
+                width: 500px;
+                height: 320px;
+            }
+        }
+    }
+}
+/*----------------------------------sec3-------------------------------------------*/
+.sec3-wrap{
+    margin-top: 35px;
+    margin-left: 75px;
+    width: 1290px;
+    height: 700px;
+    background-image: url(./images/викладачі.png);
+}
+/*----------------------------------sec4-------------------------------------------*/
+.sec4-wrap{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1291px;
+    height: 1001px;
+    margin-top: 60px;
+    margin-left: 74px;
+    margin-bottom: 80px;
+    h1{
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 130%;
+        color: #121212;
+        text-transform: uppercase;
+    }
+    img{
+        margin-top: 35px;
+        width: 1291px;
+        height: 940px;
+    }
+}
+
+
+/*----------------------------------footer------------------------------------------*/
+.footer-wrap{
+    height: 243px;
+    background-color: #3576C6;
+    justify-content: center;
+    align-items: center;
+    gap: 164px;
+    .footer-logo{
+        width: 224px;
+        height: 158px;
+    }
+    .footer-texts{
+        gap: 122px;
+        margin-top: 40px;
+        .footer-learn{
+            width: 281px;
+            height: 177px;
+            .learn-title{
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                color: #26C7EA;
+            }
+            .learn-texts{
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 20px;
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 100%;
+                color: #FFFDFD;
+                margin-bottom: 30px;
+            }
+            .footer-logos{
+                gap: 25px;
+                .learn-logo-inst{
+                    width: 30px;
+                    height: 30px;
+                }
+                .learn-logo-yb{
+                    width: 50px;
+                    height: 30px;
+                }
+                .learn-logo-twt{
+                    width: 34px;
+                    height: 30px;
+                }
+            }
+        }
+        .footer-contacts{
+            width: 457px;
+            height: 156px;
+            .footer-contacts-title{
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                color: #26C7EA;
+                margin-left: 53px;
+            }
+            .street{
+                gap: 15px;
+                margin-top: 1px;
+                .street-img{
+                    width: 38px;
+                    height: 38px;
+                }
+                .street-text{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 100%;
+                    color: #FFFDFD;
+                    margin-top: 9px;
+                }
+            }
+            .footer-contacts-text{
+                margin-top: 10px;
+                margin-left: 53px;
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                color: #26C7EA;
+            }
+        }
+    }
+}

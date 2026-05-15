@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile setings</title>
+    <link rel="stylesheet" href="./third-style.css">
+</head>
+<!-- <input type="number" placeholder="Enter" id="id"> -->
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrap flex">
+                <div class="logo">
+                    <img src="images/лого школи 1.png" alt="logo">
+                </div>
+                <div>
+                    <nav>
+                        <ul class="menu1 flex">
+                            <li><a href="./index.html" class="items2">Головна</a></li>
+                            <li><a href="./second-index.html" class="items2">Про нас</a></li>
+                            <li><a href="./third-index.html" class="items1">Математика</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="button1"><a href="#" class="btn1">Приєднатися</a></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="modal-window flex">
+            <div class="register-window flex">
+                <h2 class="title">Зареєструватись</h2>
+                <input type="text" placeholder="Введіть ім'я" id="regName">
+                <input type="email" placeholder="Введіть email" id="regEmail">
+                <input type="password" placeholder="Введіть пароль" id="regPassword">
+                <button type="submit" class="reg-btn"><p class="text-reg">Зареєструватись</p></button>
+                <button class="isAccount"><p class="text-reg">Вже є аккаунт?</p></button>
+            </div>
+            <div class="login-window flex">
+                <h2 class="title">Увійти</h2>
+                <input type="email" placeholder="Введіть email" id="logEmail">
+                <input type="password" placeholder="Введіть пароль" id="logPassword">
+                <button type="submit" class="log-btn"><p class="text-log">Увійти</p></button>
+            </div>
+            <div class="result-window flex">
+                <h2 class="title">Результат</h2>
+                <p class="result-textE">Вітаємо! Ви успішно увійшли в систему.</p>
+            </div>
+        </div>
+        <section class="sec1">
+            <div class="container">
+                <div class="sec1-wrap">
+                    <button class="maths-js-btn">
+                        <p class="maths-js-text">математика&JavaScript</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="sec2">
+            <div class="container">
+                <div class="grid">
+                    <div class="item-grid flex">
+                        <h2 class="title">Математичний калькулятор</h2>
+                        <input type="number" placeholder="Введіть перше число" id="inputFNumb">
+                        <input type="text" placeholder="Введіть операцію" id="inputOperation">
+                        <input type="number" placeholder="Введіть друге число" id="inputSNumb"> 
+                        <button class="result-btn"><p class="text-result">Обчислити</p></button>
+                        <p class="result-text"></p>
+                    </div>
+                    <div class="item-grid flex">
+                        <h2 class="title">Знаходження більшого числа</h2>
+                        <input type="number" placeholder="Введіть перше число" id="inputFNumbA">
+                        <input type="number" placeholder="Введіть друге число" id="inputSNumbA"> 
+                        <button class="result-btnA"><p class="text-result">Порівняти</p></button>
+                        <p class="result-textA"></p>
+                    </div>
+                    <div class="item-grid flex">
+                        <h2 class="title">Обчислення дискримінанта (D) і коренів<br>квадратного рівняння<br>ax^2+bx+c=0</h2>
+                        <input type="number" placeholder="Введіть коефіцієнт a" id="koefA">
+                        <input type="number" placeholder="Введіть коефіцієнт b" id="koefB">
+                        <input type="number" placeholder="Введіть коефіцієнт c" id="koefC">
+                        <button class="result-btnB"><p class="text-result">Обчислити</p></button>
+                        <p class="discriminator"></p>
+                        <p class="first-root"></p>
+                        <p class="second-root"></p>
+                    </div>
+                    <div class="item-grid flex">
+                        <h2 class="title">Відгадай число</h2>
+                        <div class="buttons-item flex">
+                            <button class="easybtn"><p class="text-result">Easy level</p></button>
+                            <button class="mediumbtn"><p class="text-result">Medium level</p></button>
+                            <button class="hardbtn"><p class="text-result">Hard level</p></button>
+                        </div>
+                        <input type="number" placeholder="Введіть число" id="guessNumb">
+                        <button class="result-btnC"><p class="text-result">Відгадати</p></button>
+                        <p class="guess-result"></p>
+                        <p class="guess-tryes">0</p>
+                    </div>
+                    <div class="item-grid flex">
+                        <div class="buttons-item flex">
+                            <button class="easy-btn"><p class="text-result">Easy level</p></button>
+                            <button class="hard-btn"><p class="text-result">Hard level</p></button>
+                        </div>
+                        <select id="chooseSelect"></select>
+                        <button class="result-btnD"><p class="text-result">Грати</p></button>
+                        <p class="game-result"></p>
+                    </div>
+                    <div class="item-grid1 flex snake-game">
+                        <h2 class="title">Гра Змійка</h2>
+                        <canvas id="snakeCanvas" width="300" height="300"></canvas>
+                        <button class="snake-start-btn">
+                            <p class="text-result">Почати гру</p>
+                        </button>
+                        <p class="snake-score">Рахунок: 0</p>
+                        <p class="snake-record">Рекорд: 0</p>
+                        <p class="snake-last">Останній результат: 0</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-wrap flex">
+                <img src="images/лого школи 1.png" alt="logo" class="footer-logo">
+                <div class="footer-texts flex">
+                    <div class="footer-learn">
+                        <p class="learn-title">Навчання</p>
+                        <div class="learn-texts flex">
+                            <p class="learn-text">Загальноосвітня школа</p>
+                            <p class="learn-text">Початкова школа</p>
+                        </div>
+                        <div class="footer-logos flex">
+                            <img src="./images/inst 1.png" alt="" class="learn-logo-inst"><img src="./images/youtube 1.png" alt="" class="learn-logo-ytb"><img src="./images/twitter 1.png" alt="" class="learn-logo-twt">
+                        </div>
+                    </div>
+                    <div class="footer-contacts">
+                        <p class="footer-contacts-title">Контакти</p>
+                        <div class="street flex">
+                            <img src="./images/Group 73.png" alt="" class="street-img">
+                            <p class="street-text">Вул. Ленкавського, 17б</p>
+                        </div>
+                        <p class="footer-contacts-text">(067) 699-57-76  (050) 488-99-51 if@itstep.org<br>ПН. - ПТ з 09.00 до 19.00 СБ. з 09.00 до 16.00</p>
+                        <div class="street flex">
+                            <img src="./images/Group 73.png" alt="" class="street-img">
+                            <p class="street-text">Вул. Гузара, 49 (4 поверх)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>

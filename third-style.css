@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+:root{
+    /* --title-color:#0A3853; */
+    --dark-blue-color:#0B0E66;
+    --light-blue-color:#26C7EA;
+}
+/*-------------------------------------------header1------------------------------------------------*/
+.header-wrap{
+    justify-content: space-around;
+    align-items: center;
+    background-blend-mode: multiply;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    background-color: #3576C6;
+}
+.button1{
+    width: 200px;
+    height: 49px;
+    background-color: var(--dark-blue-color);
+    margin-top: 20px;
+}
+.btn1{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: var(--light-blue-color);
+    padding: 12.6px 12.4px;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+}
+.menu1{
+    gap: 40px;
+}
+.items2{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #FFFFFF;
+}
+.items1{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: var(--dark-blue-color);
+}
+
+/*-------------------------------------------sec1------------------------------------------------*/
+.sec1-wrap{
+    height: 700px;
+    background-image: url(./images/1234.png);
+    padding-top: 510px;
+    padding-left: 436px;
+    .maths-js-btn{
+        width: 569px;
+        height: 120px;
+        background-color: #3576C6;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+        color: #FFFDFD;
+        text-transform: uppercase;
+        border: 0px;
+    }
+}
+
+/*-------------------------------------------sec2------------------------------------------------*/
+.grid{
+    width: 1240px;
+    height: 1180px;
+    margin-top: 96px;
+    margin-left: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    .item-grid{
+        padding-bottom: 50px;
+        width: 550px;
+        height: 360px;
+        background: #ffffff;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(117, 255, 248, 1) 50%, rgba(68, 169, 227, 1) 100%);
+        border: 1px;
+        border-color: #000000;
+        border-style: solid;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        .title{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            font-style: italic;
+            line-height: 100%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        input{
+            border-radius: 10px;
+            padding-left: 10px;
+            border: 1px;
+            border-style: solid;
+            width: 250px;
+            height: 30px;
+            align-items: center;
+            color: gray;
+        }
+        .result-btn{
+            width: 250px;
+            height: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 100%;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+        }
+        .result-text{
+            margin-top: 20px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .result-btnA{
+            width: 250px;
+            height: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 100%;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+        }
+        .result-textA{
+            margin-top: 20px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .result-btnB{
+            width: 250px;
+            height: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 100%;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+        }
+        .result-btnC{
+            width: 250px;
+            height: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 100%;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+        }
+        .result-btnD{
+            width: 200px;
+            height: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 100%;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+        }
+        .result-textB{
+            margin-top: 20px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .guess-result{
+            margin-top: 20px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .guess-tryes{
+            margin-top: 20px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .discriminator{
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            font-style: italic;
+            line-height: 100%;
+            color: gray
+        }
+        .first-root{
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            font-style: italic;
+            line-height: 100%;
+            color: gray
+        }
+        .second-root{
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            font-style: italic;
+            line-height: 100%;
+            color: gray
+        }
+        .buttons-item{
+            gap: 10px;
+            .easybtn{
+                width: 100px;
+                height: 30px;
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                font-style: italic;
+                line-height: 100%;
+                border: 1px;
+                border-radius: 10px;
+                border-style: solid;
+            }
+            .mediumbtn{
+                width: 100px;
+                height: 30px;
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                font-style: italic;
+                line-height: 100%;
+                border: 1px;
+                border-radius: 10px;
+                border-style: solid;
+            }
+            .hardbtn{
+                width: 100px;
+                height: 30px;
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                font-style: italic;
+                line-height: 100%;
+                border: 1px;
+                border-radius: 10px;
+                border-style: solid;
+            }
+            .easy-btn{
+                width: 100px;
+                height: 30px;
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                font-style: italic;
+                line-height: 100%;
+                border: 1px;
+                border-radius: 10px;
+                border-style: solid;
+            }
+            .hard-btn{
+                width: 100px;
+                height: 30px;
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                font-style: italic;
+                line-height: 100%;
+                border: 1px;
+                border-radius: 10px;
+                border-style: solid;
+            }
+        }
+        select{
+            width: 200px;
+            height: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 100%;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+        }
+        .snake-game{
+            gap: 10px;
+        }
+        #snakeCanvas{
+            border: 3px solid #0B0E66;
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        .snake-start-btn{
+            width: 200px;
+            height: 35px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            border: 1px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .snake-score,.snake-record, .snake-last{
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+    .item-grid1{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 550px;
+        height: 500px;
+        background: #ffffff;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(117, 255, 248, 1) 50%, rgba(68, 169, 227, 1) 100%);
+        border: 1px;
+        border-color: #000000;
+        border-style: solid;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        .title{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            font-style: italic;
+            line-height: 100%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .snake-game{
+            gap: 10px;
+        }
+        #snakeCanvas{
+            border: 3px solid #0B0E66;
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        .snake-start-btn{
+            width: 200px;
+            height: 105px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            border: 1px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .snake-score,.snake-record, .snake-last{
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}
+/*--------------------------modalwindow-------------------------------------*/
+.modal-window{
+    display: none;
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;
+    background: #FFFFFF;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(117, 255, 248, 1) 50%, rgba(68, 169, 227, 1) 100%);
+    z-index: 5;
+    .register-window{
+        display: block;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        .title{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            font-style: italic;
+            line-height: 100%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        input{
+            border-radius: 10px;
+            padding-left: 10px;
+            border: 1px;
+            border-style: solid;
+            width: 250px;
+            height: 30px;
+            align-items: center;
+            color: gray;
+        }
+        .reg-btn{
+            width: 150px;
+            height: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 100%;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+        }
+        .isAccont{
+            width: 150px;
+            height: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 100%;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+        }
+    }
+    .login-window{
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        .title{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            font-style: italic;
+            line-height: 100%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        input{
+            border-radius: 10px;
+            padding-left: 10px;
+            border: 1px;
+            border-style: solid;
+            width: 250px;
+            height: 30px;
+            align-items: center;
+            color: gray;
+        }
+        .log-btn{
+            width: 150px;
+            height: 30px;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 100%;
+            border: 1px;
+            border-radius: 10px;
+            border-style: solid;
+        }
+    }
+    .result-window{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .title{
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            font-style: italic;
+            line-height: 100%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .result-textE{
+            margin-top: 20px;
+            color: #FFFFFF;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 28px;
+        }
+    }
+}
+
+
+/*----------------------------------footer------------------------------------------*/
+.footer-wrap{
+    margin-top: 231px;
+    height: 243px;
+    background-color: #3576C6;
+    justify-content: center;
+    align-items: center;
+    gap: 164px;
+    .footer-logo{
+        width: 224px;
+        height: 158px;
+    }
+    .footer-texts{
+        gap: 122px;
+        margin-top: 40px;
+        .footer-learn{
+            width: 281px;
+            height: 177px;
+            .learn-title{
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                color: #26C7EA;
+            }
+            .learn-texts{
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 20px;
+                font-family: "Inter", sans-serif;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 100%;
+                color: #FFFDFD;
+                margin-bottom: 30px;
+            }
+            .footer-logos{
+                gap: 25px;
+                .learn-logo-inst{
+                    width: 30px;
+                    height: 30px;
+                }
+                .learn-logo-yb{
+                    width: 50px;
+                    height: 30px;
+                }
+                .learn-logo-twt{
+                    width: 34px;
+                    height: 30px;
+                }
+            }
+        }
+        .footer-contacts{
+            width: 457px;
+            height: 156px;
+            .footer-contacts-title{
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 100%;
+                color: #26C7EA;
+                margin-left: 53px;
+            }
+            .street{
+                gap: 15px;
+                margin-top: 1px;
+                .street-img{
+                    width: 38px;
+                    height: 38px;
+                }
+                .street-text{
+                    font-family: "Inter", sans-serif;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 100%;
+                    color: #FFFDFD;
+                    margin-top: 9px;
+                }
+            }
+            .footer-contacts-text{
+                margin-top: 10px;
+                margin-left: 53px;
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 100%;
+                color: #26C7EA;
+            }
+        }
+    }
+}
